@@ -24,7 +24,7 @@ public class Jugador {
     @Column(name = "contrasena",nullable = false)
     private String contrasena;
 
-    @Column(name = "correo",nullable = false, unique = true, length = 28)
+    @Column(name = "correo",nullable = false, length = 28)
     private String correo;
 
 }

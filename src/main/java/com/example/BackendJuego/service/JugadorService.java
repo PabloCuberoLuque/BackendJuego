@@ -12,5 +12,5 @@ public interface JugadorService {
     Jugador obtenerJugadorPorNombre(String nombreJugador);
     List<Jugador> obtenerTodosLosJugadores();
     void actualizarJugador(Jugador jugador);
-    //void borrarJugador(int id);
+    void borrarJugador(int id);
 }

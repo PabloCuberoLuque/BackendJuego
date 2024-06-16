@@ -14,6 +14,7 @@ public class JugadorServiceImpl  implements JugadorService {
 
     @Autowired
     private JugadorRepository jr;
+
     @Override
     public void guardarUsuario(Jugador jugador) {
         jr.save(jugador);
@@ -41,10 +42,10 @@ public class JugadorServiceImpl  implements JugadorService {
 
 
 
-   /* @Override
+   @Override
     public void borrarJugador(int id) {
         jr.deleteById(id);
-    }*/
+    }
 
 
 }
